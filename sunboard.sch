@@ -663,4 +663,49 @@ Wire Wire Line
 Connection ~ 1650 4450
 Wire Wire Line
 	1650 4450 1300 4450
+$Comp
+L Connector_Generic:Conn_01x04 J1
+U 1 1 5C547CE9
+P 5850 5500
+F 0 "J1" H 5930 5492 50  0000 L CNN
+F 1 "Conn_01x04" H 5930 5401 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 5850 5500 50  0001 C CNN
+F 3 "~" H 5850 5500 50  0001 C CNN
+	1    5850 5500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 5400 5100 5400
+Wire Wire Line
+	5650 5500 5100 5500
+Wire Wire Line
+	5650 5600 5100 5600
+Wire Wire Line
+	5650 5700 5100 5700
+$Comp
+L power:+3.3V #PWR0111
+U 1 1 5C54DC87
+P 5100 5400
+F 0 "#PWR0111" H 5100 5250 50  0001 C CNN
+F 1 "+3.3V" H 5115 5573 50  0000 C CNN
+F 2 "" H 5100 5400 50  0001 C CNN
+F 3 "" H 5100 5400 50  0001 C CNN
+	1    5100 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0113
+U 1 1 5C54DCC2
+P 5100 5700
+F 0 "#PWR0113" H 5100 5450 50  0001 C CNN
+F 1 "GND" H 5105 5527 50  0000 C CNN
+F 2 "" H 5100 5700 50  0001 C CNN
+F 3 "" H 5100 5700 50  0001 C CNN
+	1    5100 5700
+	1    0    0    -1  
+$EndComp
+Text Label 5100 5500 0    50   ~ 0
+SWCLK
+Text Label 5100 5600 0    50   ~ 0
+SWDIO
 $EndSCHEMATC
