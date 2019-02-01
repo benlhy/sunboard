@@ -708,4 +708,53 @@ Text Label 5100 5500 0    50   ~ 0
 SWCLK
 Text Label 5100 5600 0    50   ~ 0
 SWDIO
+$Comp
+L Connector_Generic:Conn_01x04 J4
+U 1 1 5C54E409
+P 5850 6200
+F 0 "J4" H 5930 6192 50  0000 L CNN
+F 1 "Conn_01x04" H 5930 6101 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 5850 6200 50  0001 C CNN
+F 3 "~" H 5850 6200 50  0001 C CNN
+	1    5850 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0123
+U 1 1 5C54E554
+P 5650 6100
+F 0 "#PWR0123" H 5650 5950 50  0001 C CNN
+F 1 "+3.3V" H 5665 6273 50  0000 C CNN
+F 2 "" H 5650 6100 50  0001 C CNN
+F 3 "" H 5650 6100 50  0001 C CNN
+	1    5650 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0124
+U 1 1 5C54E591
+P 5650 6400
+F 0 "#PWR0124" H 5650 6150 50  0001 C CNN
+F 1 "GND" H 5655 6227 50  0000 C CNN
+F 2 "" H 5650 6400 50  0001 C CNN
+F 3 "" H 5650 6400 50  0001 C CNN
+	1    5650 6400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 6200 5050 6200
+Wire Wire Line
+	5650 6300 5050 6300
+Wire Wire Line
+	3450 5600 4050 5600
+Wire Wire Line
+	3450 5700 4050 5700
+Text Label 5050 6200 0    50   ~ 0
+PA3
+Text Label 5050 6300 0    50   ~ 0
+PA4
+Text Label 4050 5600 0    50   ~ 0
+PA3
+Text Label 4050 5700 0    50   ~ 0
+PA4
 $EndSCHEMATC
