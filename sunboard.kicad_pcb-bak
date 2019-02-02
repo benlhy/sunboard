@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 7)
+    (drawings 9)
     (tracks 172)
     (zones 0)
     (modules 25)
@@ -1077,6 +1077,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model "C:/Users/Ben/Documents/GitHub/KiCad Projects/KiCad Models/dc jack/AB2_PB_2MM_JACK_PTH.x3d"
+      (offset (xyz -13.842999792099 0 0))
+      (scale (xyz 0.4 0.4 0.4))
+      (rotate (xyz 0 0 90))
+    )
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer F.Cu) (tedit 5B301BBD) (tstamp 5C5EDBE3)
@@ -1267,12 +1272,12 @@
     )
   )
 
-  (module Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 5C6119E7)
+  (module Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical (layer F.Cu) (tedit 5C5473C7) (tstamp 5C6119E7)
     (at 82.042 43.688)
     (descr "Through hole straight pin header, 1x04, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x04 2.54mm single row")
     (path /5C54E409)
-    (fp_text reference J4 (at 0 -2.33) (layer F.SilkS)
+    (fp_text reference J4 (at 0 -2.33) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value Conn_01x04 (at 0 9.95) (layer F.Fab)
@@ -1311,6 +1316,12 @@
     )
   )
 
+  (gr_text PA4 (at 79.502 48.768 90) (layer F.SilkS) (tstamp 5C612A69)
+    (effects (font (size 0.762 0.762) (thickness 0.1905)))
+  )
+  (gr_text PA3 (at 79.502 45.974 90) (layer F.SilkS) (tstamp 5C60FA04)
+    (effects (font (size 0.762 0.762) (thickness 0.1905)))
+  )
   (gr_text CLK (at 78.74 31.242) (layer F.SilkS) (tstamp 5C60FA04)
     (effects (font (size 0.762 0.762) (thickness 0.127)))
   )

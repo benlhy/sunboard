@@ -850,6 +850,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model "C:/Users/Ben/Documents/GitHub/KiCad Projects/KiCad Models/packages3d_old/Crystals.3dshapes/Crystal_SMD_5032-4pin_5.0x3.2mm.wrl"
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical (layer F.Cu) (tedit 5C527F5C) (tstamp 5C5ED446)
@@ -1024,6 +1029,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model "C:/Users/Ben/Documents/GitHub/KiCad Projects/KiCad Models/packages3d_old/Crystals.3dshapes/Crystal_SMD_5032-2pin_5.0x3.2mm.step"
+      (at (xyz 0 0 0))
+      (scale (xyz 0.7 0.6 0.5))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module Connector_BarrelJack:BarrelJack_Horizontal (layer F.Cu) (tedit 5C527FC5) (tstamp 5C5ED952)
@@ -1076,6 +1086,11 @@
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
+    )
+    (model "C:/Users/Ben/Documents/GitHub/KiCad Projects/KiCad Models/dc jack/AB2_PB_2MM_JACK_PTH.x3d"
+      (offset (xyz -13.842999792099 0 0))
+      (scale (xyz 0.4 0.4 0.4))
+      (rotate (xyz 0 0 90))
     )
   )
 
