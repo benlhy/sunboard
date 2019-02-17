@@ -198,12 +198,8 @@ Wire Wire Line
 Connection ~ 1300 4550
 Wire Wire Line
 	3450 6700 4150 6700
-Wire Wire Line
-	3450 6800 4150 6800
 Text Label 4150 6700 0    50   ~ 0
 SWCLK
-Text Label 4150 6800 0    50   ~ 0
-SWDIO
 Wire Wire Line
 	3450 6200 4150 6200
 Text Label 4150 6200 0    50   ~ 0
@@ -705,9 +701,9 @@ F 3 "" H 5100 5700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 5100 5500 0    50   ~ 0
-SWCLK
-Text Label 5100 5600 0    50   ~ 0
 SWDIO
+Text Label 5100 5600 0    50   ~ 0
+SWCLK
 $Comp
 L Connector_Generic:Conn_01x04 J4
 U 1 1 5C54E409
@@ -757,4 +753,8 @@ Text Label 4050 5600 0    50   ~ 0
 PA3
 Text Label 4050 5700 0    50   ~ 0
 PA4
+Wire Wire Line
+	3450 6600 4150 6600
+Text Label 4150 6600 0    50   ~ 0
+SWDIO
 $EndSCHEMATC
