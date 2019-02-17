@@ -757,4 +757,15 @@ Wire Wire Line
 	3450 6600 4150 6600
 Text Label 4150 6600 0    50   ~ 0
 SWDIO
+$Comp
+L MCU_ST_STM32F0:STM32F030F4Px U?
+U 1 1 5C6A2359
+P 8850 4000
+F 0 "U?" H 8850 3114 50  0000 C CNN
+F 1 "STM32F030F4Px" H 8850 3023 50  0000 C CNN
+F 2 "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm" H 8450 3300 50  0001 R CNN
+F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00088500.pdf" H 8850 4000 50  0001 C CNN
+	1    8850 4000
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
